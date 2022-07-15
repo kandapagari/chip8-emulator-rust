@@ -1,8 +1,8 @@
 [package]
 name = "desktop"
 version = "0.1.0"
-authors = ["aquova <abrick912@gmail.com>"]
-edition = "2018"
+authors = ["Pavan Kumar Kandapagari <785pavan@gmail.com>"]
+edition = "2021"
 
 [dependencies]
 chip8_core = { path = "../chip8_core" }
