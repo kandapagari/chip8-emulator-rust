@@ -115,6 +115,7 @@ impl Emu {
         if self.st > 0 {
             if self.st == 1 {
                 // BEEP
+                println!("I Just beeped");
             }
             self.st -= 1;
         }
