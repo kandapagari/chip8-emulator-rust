@@ -1,9 +1,8 @@
 [package]
 name = "chip8_core"
 version = "0.1.0"
+authors = ["Pavan Kumar Kandapagari<785pavan@gmail.com>"]
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-rand = "*"
+rand = { version = "^0.7.3", features = ["wasm-bindgen"] }
